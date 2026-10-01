@@ -1,6 +1,8 @@
 spring:
   application:
     name: CONFIG-DEFAULT
+     profiles:
+    active: default
 eureka:
   client:
     fetch-registry: true
